@@ -1,6 +1,6 @@
 export const TransactionHistory = ({ items }) => {
   return (
-    <>
+    <section className="sectionContainer">
       <table>
         <thead>
           <tr>
@@ -21,6 +21,6 @@ export const TransactionHistory = ({ items }) => {
           })}
         </tbody>
       </table>
-    </>
+    </section>
   );
 };

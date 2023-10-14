@@ -1,6 +1,6 @@
 export const FriendList = ({ friends }) => {
   return (
-    <>
+    <section className="sectionContainer">
       <ul className="friend-list">
         {friends.map(({ avatar, name, isOnline, id }) => {
           return (
@@ -12,6 +12,6 @@ export const FriendList = ({ friends }) => {
           );
         })}
       </ul>
-    </>
+    </section>
   );
 };

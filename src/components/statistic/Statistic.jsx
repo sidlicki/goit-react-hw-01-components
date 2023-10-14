@@ -1,6 +1,6 @@
 export const Statistics = ({ title, stats }) => {
   return (
-    <>
+    <section className="sectionContainer">
       {title && <h2>{title}</h2>}
       <ul className="stat-list">
         {stats.map(({ id, label, percentage }) => {
@@ -12,6 +12,6 @@ export const Statistics = ({ title, stats }) => {
           );
         })}
       </ul>
-    </>
+    </section>
   );
 };
