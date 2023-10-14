@@ -1,0 +1,26 @@
+.table {
+  width: 100%;
+  max-width: 700px;
+  table-layout: fixed;
+}
+
+.headerTable {
+  background-color: rgb(168, 176, 199);
+  color: rgb(19, 19, 27);
+  padding-top: 20px;
+  height: 40px;
+}
+
+.tr {
+  text-align: center;
+  height: 30px;
+  padding: 20px;
+  background-color: rgba(175, 175, 175, 0.426);
+}
+.tr:nth-child(2n) {
+  background-color: rgba(235, 210, 210, 0.426);
+}
+
+.typeTransaction {
+  font-size: 16px;
+}

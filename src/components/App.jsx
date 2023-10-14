@@ -12,7 +12,7 @@ import transactionArr from '../data/transactions.json';
 
 export const App = () => {
   return (
-    <>
+    <main>
       <Profile
         username={userInfo.username}
         tag={userInfo.tag}
@@ -26,6 +26,6 @@ export const App = () => {
       <FriendList friends={friends} />
 
       <TransactionHistory items={transactionArr} />
-    </>
+    </main>
   );
 };

@@ -1,0 +1,62 @@
+.friendsList {
+  display: flex;
+  gap: 20px;
+}
+.listItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;
+  box-shadow: inset 0px 1px 38px -12px rgba(16, 54, 35, 0.49);
+  border-radius: 20px;
+}
+
+.statusOnline {
+  position: relative;
+  display: block;
+  color: rgb(2, 91, 2);
+}
+.statusOnline::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  transform: translate(150%, 50%);
+  background-color: rgb(19, 208, 19);
+}
+.statusOffline {
+  position: relative;
+
+  display: block;
+  color: rgb(101, 96, 96);
+}
+.statusOffline::after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  right: 0;
+  top: 0;
+  transform: translate(150%, 50%);
+  background-color: rgb(114, 123, 114);
+}
+
+.friendImg {
+  padding: 10px;
+  width: 100px;
+  border-radius: 20px;
+  box-shadow: inset 0px 1px 38px -12px rgba(16, 54, 35, 0.467);
+}
+.friendName {
+  font-size: 18px;
+  line-height: 1.1;
+  font-weight: 500;
+}
