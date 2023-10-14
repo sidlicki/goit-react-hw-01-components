@@ -56,7 +56,8 @@ body::-webkit-scrollbar {
   background-color: rgba(109, 244, 188, 0.34);
   padding: 30px;
   min-width: 300px;
-  max-width: max-content;
+  max-width: 1100px;
+  width: max-content;
   border-radius: 30px;
   box-shadow: 0px 1px 38px -16px rgb(34, 183, 194);
 }
